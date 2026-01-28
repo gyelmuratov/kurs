@@ -1,6 +1,6 @@
 
 def regis_handlers():
-    javob  = input("Ro'yxatdan o'tmoqchimisiz? (ha/yo'q)").strip().lower()
+    javob  = input("Ro'yxatdan o'tmoqchimisiz? (ha/yo'q): ").strip().lower()
 
     if javob in ['ha']:
         print('Registartsiya boshlandi')

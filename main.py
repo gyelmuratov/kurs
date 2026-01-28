@@ -12,6 +12,7 @@ dp = Dispatcher()
 async def startup():
     logging.info('Bot started')
 
+    # Bu jadvallar yaratilganligini tekshirish
     for table in [users, courses,registrations]:
         execute_query(table)
     print('Jadvallar yaratildi ')
